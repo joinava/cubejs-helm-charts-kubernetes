@@ -1,10 +1,16 @@
+{{- if .Values.storage.cubeApi.enabled }}
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: cubeapi-pvc
+  namespace: {{ .Values.namespace }}
 spec:
+  {{- if .Values.storage.storageClass }}
+  storageClassName: {{ .Values.storage.storageClass }}
+  {{- end }}
   accessModes:
-    - ReadWriteOnce
+    - {{ .Values.storage.cubeApi.accessMode }}
   resources:
     requests:
-      storage: 5Gi
+      storage: {{ .Values.storage.cubeApi.size }}
+{{- end }}
