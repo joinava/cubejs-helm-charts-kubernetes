@@ -3,22 +3,22 @@ entries:
   cubejs:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-13T07:22:14.006608529Z"
+    created: "2025-08-13T14:18:21.389345953Z"
     description: A Helm chart for running Cubejs in Kubernetes
-    digest: ae743373650af0de18d2cf954e93dcd6af142f0739d55c60f9a21df762a8c530
+    digest: 12beaac8b7bc699e205bbedbe839e1a3d0e24858fcd9ef11c13a3cef8075297c
     name: cubejs
     type: application
     urls:
-    - https://joinava.github.io/cubejs-helm-charts-kubernetes/cubejs-0.1.1.tgz
-    version: 0.1.1
+    - https://joinava.github.io/cubejs-helm-charts-kubernetes/cubejs-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-13T07:22:14.007343042Z"
+    created: "2025-08-13T14:18:21.390065085Z"
     description: A Helm chart for running Cubejs in Kubernetes
-    digest: ae743373650af0de18d2cf954e93dcd6af142f0739d55c60f9a21df762a8c530
+    digest: 12beaac8b7bc699e205bbedbe839e1a3d0e24858fcd9ef11c13a3cef8075297c
     name: cubejs
     type: application
     urls:
-    - https://joinava.github.io/cubejs-helm-charts-kubernetes/.deploy/cubejs-0.1.1.tgz
-    version: 0.1.1
-generated: "2025-08-13T07:22:14.005709859Z"
+    - https://joinava.github.io/cubejs-helm-charts-kubernetes/.deploy/cubejs-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-08-13T14:18:21.388404216Z"
