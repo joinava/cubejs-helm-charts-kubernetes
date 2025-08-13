@@ -3,6 +3,8 @@
 # Declare variables to be passed into your templates.
 
 namespace: "cubejs"
+# Set to true to create the namespace, false if namespace already exists
+createNamespace: true
 annotations: {reloader.stakater.com/auto: "true"}
 
 cubeReplicas:
